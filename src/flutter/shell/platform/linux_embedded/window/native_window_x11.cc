@@ -16,7 +16,7 @@ namespace flutter {
 
 namespace {
 static constexpr char kWmDeleteWindow[] = "WM_DELETE_WINDOW";
-static constexpr char kWindowTitle[] = "Flutter for Embedded Linux";
+static constexpr char kWindowTitle[] = "";
 }  // namespace
 
 NativeWindowX11::NativeWindowX11(Display* display,
